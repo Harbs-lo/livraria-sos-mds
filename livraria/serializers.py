@@ -12,7 +12,6 @@ class CategoriaSerializer(ModelSerializer):
         model = Categoria
         fields = "__all__"
 
-
 class EditoraSerializer(ModelSerializer):
     class Meta:
         model = Editora
