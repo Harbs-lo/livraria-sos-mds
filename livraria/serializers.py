@@ -31,4 +31,4 @@ class LivroDetailSerializer(ModelSerializer):
     class Meta:
         model = Livro
         fields = "__all__"
-        depth = 1
+        depth = 1 #faz com que os campos de relacionamneto sejam serializados também 
